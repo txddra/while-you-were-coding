@@ -150,7 +150,15 @@ const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|B
 // You'll know you're at a new person's name when you hit the pipe character.
 
 // Don't print the pipes!
-
+challengeBanner(10)
+console.log("Here today is:");
+for(i = 0; i < names.length; i++) {
+	if(names[i] === '|') {
+		console.log("Here today is");
+	} else {
+		console.log(names[i]);
+	}
+}
 
 // 11.
 //
