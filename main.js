@@ -114,11 +114,10 @@ let words = 'Whoa I am the best!'
 while(z < words.length){
 
         if ( z > 6 && z < 10  ) {
-          console.log(words[z].toUpperCase());
+        console.log(words[z].toUpperCase());
         } else {
-          console.log(words[z]);
+        console.log(words[z]);
         }
-      
     
     z = z + 1;
 }
@@ -128,8 +127,18 @@ while(z < words.length){
 // For the string 'I am become death, destroyer of worlds.', console out the letters
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
+challengeBanner(9)
+//let senti = 'I am become death, destroyer of worlds.';
+//let q = 0;
+//while (q = senti.length - 1){
 
-
+//senti = senti - 1;
+//console.log(senti[q])
+//}
+str = "I am become death, destroyer of worlds.";
+for(i = str.length; i >= 0; i--) {
+	console.log(str[i])
+}
 // 10.
 //
 const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
